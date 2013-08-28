@@ -1,4 +1,4 @@
-Robust and Secure Watermring using SVD & DWT
+Robust and Secure Watermarking using SVD & DWT
 ============================================
 
 This a secure and robust watermarking scheme based on singular values replacement and DWT transformation. 
