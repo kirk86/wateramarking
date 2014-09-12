@@ -10,7 +10,6 @@ The technique is described in the following paper: http://www.ias.ac.in/sadhana/
 
 ## Part A:
 ===========
-
 If you just want to hide a logo "let's say a watermark message (a.k.a image)" inside another image then simply open "dwt_svd.m" go to line 41: and change the "gaussian_plot = true" to "gaussian_plot = false".
 
 On line 42: change "print_figures = false" to "print_figures = true".
@@ -19,8 +18,7 @@ Finally execute the dwt_svd.m from matlab command window and watch the figures.
 
 
 ## Part B:
-===========
-
+==========
 Now if you want to :
 
     1. embed a watermeark message into some images
