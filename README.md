@@ -5,11 +5,12 @@ This a secure and robust watermarking scheme based on singular values replacemen
 
 The technique is described in the following paper: http://www.ias.ac.in/sadhana/Pdf2012Aug/425.pdf
 
-# What it does and how to use it:
+What it does and how to use it:
 ==================================
 
-## Part A:
+Part A:
 ===========
+
 If you just want to hide a logo "let's say a watermark message (a.k.a image)" inside another image then simply open "dwt_svd.m" go to line 41: and change the "gaussian_plot = true" to "gaussian_plot = false".
 
 On line 42: change "print_figures = false" to "print_figures = true".
@@ -17,8 +18,9 @@ On line 42: change "print_figures = false" to "print_figures = true".
 Finally execute the dwt_svd.m from matlab command window and watch the figures.
 
 
-## Part B:
+Part B:
 ==========
+
 Now if you want to :
 
     1. embed a watermeark message into some images
