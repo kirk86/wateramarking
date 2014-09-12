@@ -17,8 +17,7 @@ On line 42: change "print_figures = false" to "print_figures = true".
 Finally execute the dwt_svd.m from matlab command window and watch the figures.
 
 
-Part B:
-==========
+## Part B:
 
 Now if you want to :
 
