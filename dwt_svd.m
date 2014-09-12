@@ -1,5 +1,5 @@
 %%  DWT - SVD Watermarking
-function dwt_svd()
+function [psnr_values, psnr2dB_values] = dwt_svd()
 % clear workspace
 clear all;
 close all;
@@ -37,7 +37,7 @@ else
 end
 
 % Set constant variables
-numOfKeys = 1000;
+numOfKeys = 20;
 gaussian_plot = true;
 print_figures = false;
 
