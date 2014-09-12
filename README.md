@@ -8,8 +8,7 @@ The technique is described in the following paper: http://www.ias.ac.in/sadhana/
 What it does and how to use it:
 ==================================
 
-*Part A:
-===========
+## Part A:
 
 If you just want to hide a logo "let's say a watermark message (a.k.a image)" inside another image then simply open "dwt_svd.m" go to line 41: and change the "gaussian_plot = true" to "gaussian_plot = false".
 
