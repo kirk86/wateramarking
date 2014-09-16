@@ -35,9 +35,9 @@ Then a popup window will ask you to indicate the watermark message you used in t
 
 After the code stops executing you should have images with numeric names from [1-1000] in the following directories:
 
-* attacked = in this directory will be stored the watermarked images after the attack has been applied to them
+* attacked: -> in this directory will be stored the watermarked images after the attack has been applied to them
 
-* logos = here you'll have the corresponding watermark logos extracted from the attacked images
+* logos: -> here you'll have the corresponding watermark logos extracted from the attacked images
 
-* watermarked_images = here you'll have the images with the watermark applied to them
+* watermarked_images: -> here you'll have the images with the watermark applied to them
 
